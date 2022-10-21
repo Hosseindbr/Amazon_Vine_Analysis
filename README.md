@@ -38,7 +38,7 @@ In the fisrt deliverable, we created four dataframe named customers_df, products
 <img width="1003" alt="Screen Shot 2022-10-20 at 9 23 25 PM" src="https://user-images.githubusercontent.com/108313440/197089579-86020621-63a8-4aa7-865a-8f253d38389c.png">
 
 ### Deliverable 2: Determine Bias of Vine Reviews
-In this step, I determined if there was any bias towards reviews that were written as part of the Vine program using PySpark. For this analysis, I determined if having a "paid Vine review" makes a difference in the percentage of 5-star reviews.
+In this step, I determined if there was any bias towards reviews that were written as part of the Vine program using PySpark. For this analysis, I determined if having a "paid Vine review" makes a difference in the percentage of 5-star reviews.	To this end, the first step was creating a new DataFrame by filtering the data in vine_df to retrieve all the rows where the total_votes count is equal to or greater than 20 to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on. Then, we filtered  the DataFrame created in the previous step and created a new DataFrame to retrieve all the rows where percentage of helpful_votes was equal to or greater than 50%.  This was followed by filtering  the DataFrame created in Step 2, and create a new DataFrame that retrieved all the rows where a review was written as part of the Vine program (paid). Finally, we repeat Step 3, but this time retrieved all the rows where the review was not part of the Vine program (unpaid)
 
 <img width="1299" alt="Screen Shot 2022-10-20 at 6 33 37 PM" src="https://user-images.githubusercontent.com/108313440/197071973-a7d066cc-ce41-4172-bc23-71679886cb81.png">
 
@@ -46,9 +46,9 @@ In this step, I determined if there was any bias towards reviews that were writt
 
 <img width="888" alt="Screen Shot 2022-10-20 at 6 34 21 PM" src="https://user-images.githubusercontent.com/108313440/197072020-778a3eea-0faa-4ff7-a9ca-5e0b2a0a02be.png">
 
-
-
 <img width="873" alt="Screen Shot 2022-10-20 at 6 34 33 PM" src="https://user-images.githubusercontent.com/108313440/197072062-42109b9f-0c37-41a4-a228-4ba80e12d29e.png">
+
+## Summary
 
 <img width="612" alt="Screen Shot 2022-10-20 at 6 35 20 PM" src="https://user-images.githubusercontent.com/108313440/197072076-c1c74c7e-1f1d-4685-ae3a-6992df69a26d.png">
 
