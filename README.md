@@ -48,14 +48,10 @@ In this step, I determined if there was any bias towards reviews that were writt
 
 <img width="873" alt="Screen Shot 2022-10-20 at 6 34 33 PM" src="https://user-images.githubusercontent.com/108313440/197072062-42109b9f-0c37-41a4-a228-4ba80e12d29e.png">
 
-## Summary
+My results showed that the the number of aLL reviews and all reviews with 5 star rating were 72553 and 31600, respectively.
+The total participant in the Paid Vine Program were 613 where 36.2 % of this group of people gave 5-star reviews. On the other hand, 30530 with 47.0 % 5-star reviews were given by people who were out of the paid Vine program 
 
 <img width="612" alt="Screen Shot 2022-10-20 at 6 35 20 PM" src="https://user-images.githubusercontent.com/108313440/197072076-c1c74c7e-1f1d-4685-ae3a-6992df69a26d.png">
 
-
-
-
-
-
-
-
+## Summary
+The number of 5-star ratings among Vine members was approximately 10% lower than those among Non-Vine members (36.2% compared with 47%). Vine customers are therefore more critical when submitting their reviews, as a result. This assumption needs to be supported further by including all of the data instead of filtering it based on helpful vs. total votes. Our assumption would be further supported if we reviewed the data as it is. Additionally, we can run the same analysis using datasets from different product categories to determine whether Vine members are biased.  Vine and non-Vine reviews might be further analyzed by conducting  the statistical statistical analysis to determine the statistical distribution (max, min, mean, and median) in both paid and non-paid groups.
