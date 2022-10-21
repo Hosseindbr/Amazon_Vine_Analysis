@@ -16,7 +16,7 @@ Vine members may receive free products in exchange for reviews, which Amazon wil
 
 ## Summary of the Results
 First, the dataset was extracted from AWS S3 using PySpark, transformed, and finally reloaded into postgres AWS.
-In the fisrt deliverable, we created four dataframe named vine_table
+In the fisrt deliverable, we created four dataframe named customers_df, products_df, review_id_df, and vine_df. 
 
 <img width="1108" alt="Screen Shot 2022-10-20 at 6 32 32 PM" src="https://user-images.githubusercontent.com/108313440/197071884-2b63834a-b4d7-4627-8a0b-e09350936aa8.png">
 
@@ -26,6 +26,17 @@ In the fisrt deliverable, we created four dataframe named vine_table
 <img width="1295" alt="Screen Shot 2022-10-20 at 6 32 50 PM" src="https://user-images.githubusercontent.com/108313440/197071922-753019bd-30ad-4e69-ab0a-e5bf074ce39e.png">
 
 <img width="975" alt="Screen Shot 2022-10-20 at 6 32 59 PM" src="https://user-images.githubusercontent.com/108313440/197071950-65c557ff-1fb8-4bfa-868f-43ede03a8cc3.png">
+
+Then, the data frames were loaded into pgAdmin. To this end, I initially made the connection to my AWS RDS instance. After that, I loaded the DataFrames that corresponded to tables in pgAdmin. To make sure that the table had been populated, I ran a query In pgAdmin.
+
+<img width="996" alt="Screen Shot 2022-10-20 at 9 20 45 PM" src="https://user-images.githubusercontent.com/108313440/197089573-ca3a942e-4c7a-4f27-b67d-0583c6a8d321.png">
+
+<img width="1013" alt="Screen Shot 2022-10-20 at 9 22 01 PM" src="https://user-images.githubusercontent.com/108313440/197089577-5960e849-b985-4c83-8d61-d3f72ec65973.png">
+
+<img width="1004" alt="Screen Shot 2022-10-20 at 9 22 48 PM" src="https://user-images.githubusercontent.com/108313440/197089578-14f5f739-d657-4ba1-a978-6cf90b268aad.png">
+
+<img width="1003" alt="Screen Shot 2022-10-20 at 9 23 25 PM" src="https://user-images.githubusercontent.com/108313440/197089579-86020621-63a8-4aa7-865a-8f253d38389c.png">
+
 
 
 <img width="1299" alt="Screen Shot 2022-10-20 at 6 33 37 PM" src="https://user-images.githubusercontent.com/108313440/197071973-a7d066cc-ce41-4172-bc23-71679886cb81.png">
