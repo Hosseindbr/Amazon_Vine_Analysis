@@ -15,7 +15,8 @@ Vine members may receive free products in exchange for reviews, which Amazon wil
 
 
 ## Summary of the Results
-First, the dataset was extracted from AWS S3 using PySpark, transformed, and reloaded into AWS.
+First, the dataset was extracted from AWS S3 using PySpark, transformed, and finally reloaded into postgres AWS.
+In the fisrt deliverable, we created four dataframe named vine_table
 
 <img width="1108" alt="Screen Shot 2022-10-20 at 6 32 32 PM" src="https://user-images.githubusercontent.com/108313440/197071884-2b63834a-b4d7-4627-8a0b-e09350936aa8.png">
 
